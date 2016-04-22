@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{B32669FB-C40D-40BA-BC7E-1E83F4E447C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{697DAAEB-3603-4691-8AEE-D5B7C1FA08E3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessing", "PaymentProcessing\PaymentProcessing.csproj", "{6DBA56C3-7D56-40AE-AC04-AFE9ECBA806B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms", "Cms\Cms.csproj", "{7FC2F3FF-AF07-4F3D-B665-CD8705F1423D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{31290546-8156-480A-A887-81D802AFBA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{C613E064-5FBF-4AEB-9756-287672D7D033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32669FB-C40D-40BA-BC7E-1E83F4E447C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32669FB-C40D-40BA-BC7E-1E83F4E447C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32669FB-C40D-40BA-BC7E-1E83F4E447C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32669FB-C40D-40BA-BC7E-1E83F4E447C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBA56C3-7D56-40AE-AC04-AFE9ECBA806B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA56C3-7D56-40AE-AC04-AFE9ECBA806B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA56C3-7D56-40AE-AC04-AFE9ECBA806B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA56C3-7D56-40AE-AC04-AFE9ECBA806B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC2F3FF-AF07-4F3D-B665-CD8705F1423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC2F3FF-AF07-4F3D-B665-CD8705F1423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC2F3FF-AF07-4F3D-B665-CD8705F1423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC2F3FF-AF07-4F3D-B665-CD8705F1423D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31290546-8156-480A-A887-81D802AFBA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31290546-8156-480A-A887-81D802AFBA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31290546-8156-480A-A887-81D802AFBA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31290546-8156-480A-A887-81D802AFBA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C613E064-5FBF-4AEB-9756-287672D7D033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C613E064-5FBF-4AEB-9756-287672D7D033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C613E064-5FBF-4AEB-9756-287672D7D033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C613E064-5FBF-4AEB-9756-287672D7D033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
